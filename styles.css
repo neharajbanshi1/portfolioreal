@@ -1,0 +1,84 @@
+
+
+.intro{
+    background-color: red;
+    
+    .intro__title{
+        background-color: blue;
+    }
+}
+.footer{
+    background-color: aquamarine;
+
+    .footer__icon{
+        width:20px;
+        height:20px;
+    }
+    .footer__icon--fb{
+        border:2px solid black;
+        
+        
+    }
+}
+
+  
+  
+  .navbar__list {
+    
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+    position: absolute;
+    top: 10px;
+    right: 20px; 
+  }
+  .navbar {
+    background-color:forestgreen;
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .navbar__list {
+    
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+   position: absolute;
+    top: 10px; 
+    right: 20px; 
+  }
+  
+  
+  
+  .navbar__logo img {
+    max-height: 50px; 
+  }
+  
+  .navbar__link {
+    text-decoration: none; 
+    color: white; 
+    font-size: 16px;
+    text-transform: capitalize;
+    margin:0 10px; 
+   
+  }
+  
+  .navbar__link:hover {
+    color: #ff9800; 
+  }
+  .navbar__list {
+      position: static; 
+      flex-direction: column; 
+      margin-top: 10px;
+    }
+  
+    
+  
+  
+  
