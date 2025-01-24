@@ -1,10 +1,27 @@
-
+:root{
+  --background-color:#F2F0EA;
+  --text-color:black;
+  --primary-color:#FF78AC;
+  --secondary-color:#A8D5E3;
+  --accent-color:yellow;
+}
+body{
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1,h2,h3,h4{
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+}
 
 .intro{
-    background-color: red;
+    background-color:var(--primary-color);
     
     .intro__title{
-        background-color: blue;
+        background-color:var(--primary-color);
     }
 }
 .footer{
@@ -35,7 +52,7 @@
     right: 20px; 
   }
   .navbar {
-    background-color:forestgreen;
+    background-color:var(--secondary-color);
     padding: 10px 20px; 
     display: flex;
     justify-content: space-between; 
@@ -62,7 +79,7 @@
   
   .navbar__link {
     text-decoration: none; 
-    color: white; 
+    color:var(--text-color); 
     font-size: 16px;
     text-transform: capitalize;
     margin:0; 
@@ -70,7 +87,7 @@
   }
   
   .navbar__link:hover {
-    color: #ff9800; 
+    color:var(--primary-color); 
   }
   .navbar__list {
       position: static; 
