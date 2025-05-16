@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
   <!-- Background decorative circle -->
-  <circle cx="100" cy="40" r="35" fill="#fce7f3" opacity="0.5"/>
+  <!--<circle cx="100" cy="40" r="35" fill="#fce7f3" opacity="0.5"/> -->
   
   <!-- Soft gradient definition -->
   <defs>
     <linearGradient id="pastelGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FF78AC"/>
-      <stop offset="100%" style="stop-color:#FF78AC"/>
+      <stop offset="0%" style="stop-color:black"/>
+      <stop offset="100%" style="stop-color:black"/>
     </linearGradient>
   </defs>
   
@@ -22,7 +22,7 @@
   
   <!-- Soft decorative elements -->
   <path d="M60 58 Q100 52 140 58" 
-        stroke="#fda4af" 
+        stroke="black" 
         stroke-width="2" 
         fill="none" 
         opacity="0.6"/>
