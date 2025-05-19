@@ -1,100 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-  <title>Neha's Portfolio.</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <title>Neha's Portfolio.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IN:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="navbar__items">
           <div class="navbar__logo">
-            <a href="index.html" >
-              <img  src="logo.svg" width="80px" height="50px" alt="Neha's logo"
+            <a href="index.html">
+              <img src="logo.svg" width="80px" height="50px" alt="Neha's logo"
             /></a>
-            </div>
-            <ul class="navbar__links">
-          <li ><a class="navbar__link" href="index.html">Home</a></li>
-          <li ><a class="navbar__link" href="blog.html">Blog</a></li>
-          <li ><a class="navbar__link" href="blog.html">About</a></li>
-          <li ><a class="navbar__link" href="blog.html">Contact</a></li>
-
-
-        </ul>
+          </div>
+          <ul class="navbar__links">
+            <li><a class="navbar__link" href="index.html">Home</a></li>
+            <li><a class="navbar__link" href="blog.html">Blog</a></li>
+            <li><a class="navbar__link" href="blog.html">About</a></li>
+            <li><a class="navbar__link" href="blog.html">Contact</a></li>
+          </ul>
         </div>
       </nav>
     </header>
     <section class="intro">
       <div class="intro__text">
-
-      <h1 class="intro__title">
-        Hello, I'm Neha.
-        
-      </h1>
-      <p>
-       Learning bit by bit. Mostly Googling things, occasionally making stuff work 
-   and pretending imposter syndrome isn’t real. 
-</p>
-      </p>
+        <h1 class="intro__title">Hello, I'm Neha.</h1>
+        <p>
+          Learning bit by bit. Mostly Googling things, occasionally making stuff
+          work and pretending imposter syndrome isn’t real.
+        </p>
       </div>
-      <div class="intro__image"
-      ><img src="me.jpg" alt="Neha's image"
-    /></div>
+      <div class="intro__image"><img src="me.jpg" alt="Neha's image" /></div>
+      <section class="featured-blogs-section">
+        <hr />
+        <h2>Featured Projects</h2>
+        <div class="featured-blogs">
+          <article>
+            <img src="https://unsplash.it/200/200" height="200" />
+            <a href="#"><h3>First Project</h3></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          </article>
+          <article>
+            <img src="https://unsplash.it/200/200" height="200" />
+            <a href="#"><h3>Second Project</h3></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          </article>
+          <article>
+            <img src="https://unsplash.it/200/200" height="200" />
+            <a href="#"><h3>Third Project</h3></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          </article>
+        </div>
+        <a class="see-more" href="blog.html">See more</a>
+      </section>
     </section>
-    <hr />
-    <section>
-      <h2>Featured Blogs</h2>
-      <article>
-        <img src="https://unsplash.it/200/200" height="200" />
-        <a href="#"><h3>First Blog</h3></a>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          consequuntur minus minima, omnis perspiciatis, rerum nostrum pariatur
-          nam blanditiis ut consequatur fuga perferendis neque eaque dolore
-          animi inventore quisquam quo?
-        </p>
-      </article>
-      <article>
-        <img src="https://unsplash.it/200/200" height="200" />
-        <a href="#"><h3>First Blog</h3></a>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          consequuntur minus minima, omnis perspiciatis, rerum nostrum pariatur
-          nam blanditiis ut consequatur fuga perferendis neque eaque dolore
-          animi inventore quisquam quo?
-        </p>
-      </article>
-      <article>
-        <img src="https://unsplash.it/200/200" height="200" />
-        <a href="#"><h3>First Blog</h3></a>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          consequuntur minus minima, omnis perspiciatis, rerum nostrum pariatur
-          nam blanditiis ut consequatur fuga perferendis neque eaque dolore
-          animi inventore quisquam quo?
-        </p>
-      </article>
-      <a href="blog.html">See more</a>
-    </section>
+
     <footer class="footer">
       <div class="footer_container">
         <div class="footer_icons">
-      <a href="#"><img class="footer__icon " src="facebook.svg" alt="fb" /></a>
-      <a href="#"><img class="footer__icon" src="instagram.svg" alt="instagram" /></a>
-      <a href="#"><img class="footer__icon" src="linkedin.svg" alt="linkedin" /></a>
-      <a href="#"><img class="footer__icon" src="github.svg" alt="github" /></a>
-    </div >
-    <div class="footer_bottom">
-      <p>© 2024 Neha Rajbanshi</p>
-    </div>
+          <a href="#"><img src="facebook.svg" alt="Facebook" /></a>
+          <a href="#"><img src="instagram.svg" alt="Instagram" /></a>
+          <a href="#"><img src="linkedin.svg" alt="LinkedIn" /></a>
+          <a href="#"><img src="github.svg" alt="GitHub" /></a>
+        </div>
+        <div class="footer_bottom">
+          <p>© 2024 Neha Rajbanshi</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
