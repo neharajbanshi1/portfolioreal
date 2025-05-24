@@ -3,19 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>blog.</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <ul >
-         <li><a href="index.html"> <img src="logo.svg" alt="Neha's logo"></a> </li> 
+        <div class="navbar__items">
+          <div class="navbar__logo">
+            <a href="index.html">
+              <img src="logo.svg" width="80px" height="50px" alt="Neha's logo"
+            /></a>
+          </div>
+          <ul class="navbar__links">
+            <li><a class="navbar__link" href="index.html">Home</a></li>
+            <li><a class="navbar__link" href="blog.html">Blog</a></li>
+            <li><a class="navbar__link" href="blog.html">About</a></li>
+            <li><a class="navbar__link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+</header>
 
-                <li> <a href="index.html">home</a> </li>
-                <li> <a href="blog.html">Blog</a></li>
-            </ul>
+<section class="featured-blogs-section">
+       
+        <h2>Featured Projects</h2>
+        <div class="featured-blogs">
+          <article>
+            <img src="cat.jpeg" height="200" />
+            <a href=""><h3>First Project</h3></a>
+            <p>Land ladies site</p>
+          </article>
+          <article>
+            <img src="blackjack.png" height="200" />
+            <a href="https://nehakoblackjack.netlify.app/"><h3>Second Project</h3></a>
+            <p>Black jack game for a JS course.</p>
+          </article>
+          <article>
+            <img src="quote.png" height="200" />
+            <a href="#"><h3>Third Project</h3></a>
+            <p>Quote Machine for funsies.</p>
+          </article>
+          <article>
+            <img src="penguin.png" height="200" />
+            <a href="#"><h3>Third Project</h3></a>
+            <p>CSS penguin.</p>
+          </article>
+          <article>
+            <img src="https://unsplash.it/200/200" height="200" />
+            <a href="#"><h3>Third Project</h3></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          </article>
+          <article>
+            <img src="https://unsplash.it/200/200" height="200" />
+            <a href="#"><h3>Third Project</h3></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          </article>
+        </div>
+        <a class="see-more" href="blog.html">See more</a>
+      </section>
 
-
-    </nav></header>
+   <footer class="footer">
+      <div class="footer_container">
+        <div class="footer_icons">
+          <a href="#"><img src="facebook.svg" alt="Facebook" /></a>
+          <a href="#"><img src="instagram.svg" alt="Instagram" /></a>
+          <a href="#"><img src="linkedin.svg" alt="LinkedIn" /></a>
+          <a href="#"><img src="github.svg" alt="GitHub" /></a>
+        </div>
+        <div class="footer_bottom">
+          <p>© 2024 Neha Rajbanshi</p>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
